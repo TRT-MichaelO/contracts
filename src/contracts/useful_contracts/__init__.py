@@ -1,11 +1,11 @@
 from contracts import new_contract
 
-try:
-    import numpy
-except ImportError:  # pragma: no cover
-    pass
-else:
-    from .numpy_specific import *    
+#try:
+#    import numpy
+#except ImportError:  # pragma: no cover
+#    pass
+#else:
+#    from .numpy_specific import *    
 
 from .numbers import *
 
